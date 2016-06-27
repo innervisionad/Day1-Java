@@ -1,0 +1,21 @@
+Primitives to discuss:
+
+1. Integer types
+2. Floating-point types
+3. Characters
+4. Booleans
+5. Literals
+6. Variables
+	- Dynamic Initialization
+	- Scope
+	- Lifetime
+7. Type Conversion and Casting
+	- Conversion - Two types are compatible, and the destination type is larger than the source
+			:- no automatic conversion from numeric types to char or boolean
+			:- char and bool are not compatible
+	- Cast - explicit conversion between incompatible types
+	- Type Promotion (apply to expressions)
+			:- byte, short, and char values are promoted to int
+			:- if one operand is long, the whole expression is promoted to long
+			:- if one is float, entire expression is promoted to float
+

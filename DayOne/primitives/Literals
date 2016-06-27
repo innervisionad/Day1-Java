@@ -1,0 +1,12 @@
+Literals: A constant value
+
+Integer Literals:
+- any whole number value is an integer literal.
+	Examples: 
+		Decimals (base10) [0-9] - 1, 2, 42
+		Octal (base8) [0-7] - 06 
+		hexadecimal (base16) [0-9,A-F]
+		
+	
+
+

@@ -1,0 +1,25 @@
+Array Outlines:
+
+	- a group of like-typed variables that are referred to by a common name.
+	- can have one or more dimensions
+	
+	One-dimension array
+		- a list of liked-typed variables.
+		- create array variable of desired type.
+		
+		//declare
+		int month_days[];
+		
+		//allocate memory with new
+		month_days = new int[12];
+		
+		- The elements in the array allocated by new will automatically be initialised to:
+			:- 0 for numeric
+			:- false for boolean
+			:- null for reference types (objects and strings)
+			
+	Multidimension array
+		- arrays or arrays
+		- dimensions are based on the number of brackets
+		
+		int twoD[][] = new int[4][5];
